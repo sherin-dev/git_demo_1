@@ -8,6 +8,9 @@ function App() {
   function handleClick1(){
     console.log("Hello Sherin");
   }
+  function handleClick2(){
+    console.log("Hello Souparnika");
+  }
   return (
     <>
       <div>
@@ -23,7 +26,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>  
-        <button onClick={handleClick1}> Sherin</button>      
+        <button onClick={handleClick1}> Sherin</button>  
+        <button onClick={handleClick2}> Souparnika</button>     
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
